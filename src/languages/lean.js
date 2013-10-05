@@ -12,7 +12,7 @@ function(hljs) {
             {
                 className: 'lean_keyword',
                 begin: 'Theorem|Definition|Infix|Notation|Axiom|Variable|Coercion',
-                relevance: 10
+                relevance: 90
             },
             {
                 className: 'op',
@@ -26,7 +26,7 @@ function(hljs) {
             },
             {
                 className: 'metavar',
-                begin: '[\?]m',
+                begin: '[\?]m[A-z]+',
                 relevence: 10
             },
             hljs.NUMBER_MODE,
